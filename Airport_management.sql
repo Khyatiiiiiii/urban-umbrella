@@ -1,4 +1,7 @@
-use airport_management; --to database "airport_management is used"
+--to create databse do the step in code of line 2
+--create database airport_management;
+
+use airport_management;
 
 CREATE TABLE user (
     user_id VARCHAR(10) PRIMARY KEY,
